@@ -20,20 +20,21 @@ body {
 
 .screen {
     display: flex;
-    justify-content: end;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     width: auto;
     height: 120px;
     margin: 30px;
     background-color: lightblue;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     text-align: end;
+    flex-wrap: wrap;
 }
 
 .keys {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -48,12 +49,14 @@ body {
     flex-wrap: wrap;
     width: 250px;
     justify-content: center;
+    gap: 10px;
 }
 
 .operator-keys {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 5px;
 }
 
 .btn {
