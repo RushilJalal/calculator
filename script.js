@@ -11,7 +11,8 @@ function multiply(a, b) {
 }
 
 function divide(a, b) {
-    return a / b;
+    result = a / b;
+    return Math.round((result + Number.EPSILON) * 100) / 100;
 }
 
 let firstNum;
