@@ -58,3 +58,8 @@ const clear = document.querySelector("#clear");
 clear.addEventListener("click", () => {
     screen.textContent = '';
 })
+
+const del = document.querySelector("#delete");
+del.addEventListener("click", () => {
+    screen.textContent = screenContent.slice(0, -1);
+})
