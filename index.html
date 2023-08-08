@@ -7,6 +7,7 @@
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    <link rel="icon" href="imgs/calculator.svg" />
 </head>
 
 <body>
@@ -19,24 +20,24 @@
                     <button class="btn rem" id="delete">DEL</button>
                 </div>
                 <div class="number-keys">
-                    <button class="btn num" id="seven" value="7">7</button>
-                    <button class="btn num" id="eight" value="8">8</button>
-                    <button class="btn num" id="nine" value="9">9</button>
-                    <button class="btn num" id="four" value="4">4</button>
-                    <button class="btn num" id="five" value="5">5</button>
-                    <button class="btn num" id="six" value="6">6</button>
-                    <button class="btn num" id="one" value="1">1</button>
-                    <button class="btn num" id="two" value="2">2</button>
-                    <button class="btn num" id="three" value="3">3</button>
-                    <button class="btn num" id="zero" value="0">0</button>
+                    <button data-key="7" class="btn num" id="seven" value="7">7</button>
+                    <button data-key="8" class="btn num" id="eight" value="8">8</button>
+                    <button data-key="9" class="btn num" id="nine" value="9">9</button>
+                    <button data-key="4" class="btn num" id="four" value="4">4</button>
+                    <button data-key="5" class="btn num" id="five" value="5">5</button>
+                    <button data-key="6" class="btn num" id="six" value="6">6</button>
+                    <button data-key="1" class="btn num" id="one" value="1">1</button>
+                    <button data-key="2" class="btn num" id="two" value="2">2</button>
+                    <button data-key="3" class="btn num" id="three" value="3">3</button>
+                    <button data-key="0" class="btn num" id="zero" value="0">0</button>
                 </div>
             </div>
             <div class="operator-keys">
-                <button class="btn opr" id="+" value="+">+</button>
-                <button class="btn opr" id="-" value="-">-</button>
-                <button class="btn opr" id="*" value="*">*</button>
-                <button class="btn opr" id="/" value="/">/</button>
-                <button class="btn" id="equal" value="=">=</button>
+                <button data-key="+" class="btn opr" id="+" value="+">+</button>
+                <button data-key="-" class="btn opr" id="-" value="-">-</button>
+                <button data-key="*" class="btn opr" id="*" value="*">*</button>
+                <button data-key="/" class="btn opr" id="/" value="/">/</button>
+                <button data-key="Enter" class="btn" id="equal" value="=">=</button>
             </div>
         </div>
     </div>

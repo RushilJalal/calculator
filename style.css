@@ -48,7 +48,7 @@ body {
 .number-keys {
     display: flex;
     flex-wrap: wrap;
-    width: 250px;
+    width: 260px;
     justify-content: center;
     gap: 10px;
 }
@@ -63,8 +63,8 @@ body {
 .btn {
     display: flex;
     background-color: lightgray;
-    width: 62px;
-    height: 62px;
+    width: 63px;
+    height: 63px;
     border: 2px solid black;
     border-radius: 10px;
     padding: 8px;
@@ -77,6 +77,10 @@ body {
     background-color: grey;
 }
 
+.num {
+    width: 70px;
+    height: 70px;
+}
 .num,
 .opr {
     font-size: 35px;
@@ -85,6 +89,7 @@ body {
 .remove {
     display: flex;
     width: auto;
+    gap: 10px;
 }
 
 .rem {
