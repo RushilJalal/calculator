@@ -9,12 +9,13 @@ body {
     display: flex;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
 
 .container {
     width: 400px;
     height: 550px;
-    background-color: blue;
+    background-color: rgb(47, 60, 209);
     border: 3px solid black;
     border-radius: 10px;
     padding: 10px;
@@ -101,4 +102,20 @@ body {
     width: 150px;
     height: auto;
     font-size: 20px;
+}
+
+#delete {
+    background-color: red;
+}
+
+#delete:hover {
+    background-color: rgb(157, 11, 11);
+}
+
+#equal {
+    background-color: rgb(8, 196, 8);
+}
+
+#equal:hover {
+    background-color: rgb(12, 107, 12);
 }
